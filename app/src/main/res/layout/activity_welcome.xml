@@ -1,0 +1,90 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/setName"
+        />
+    <Button
+        android:id="@+id/d0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_sign2"
+        android:padding="16dp"
+        android:text="Add Emergency Number"
+        android:textColor="#f16f7d" />
+
+    <Button
+        android:id="@+id/d1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_sign2"
+        android:padding="16dp"
+        android:text="DRIVE START"
+        android:textColor="#f16f7d" />
+    <Button
+        android:id="@+id/d2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_sign2"
+        android:padding="16dp"
+        android:text="DRIVE STOP"
+        android:textColor="#f16f7d" />
+    <Button
+        android:id="@+id/d3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_sign2"
+        android:padding="16dp"
+        android:text="RESET"
+        android:textColor="#f16f7d" />
+    <Button
+        android:id="@+id/d4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_sign2"
+        android:padding="16dp"
+        android:text="LOG OUT "
+        android:textColor="#f16f7d" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>

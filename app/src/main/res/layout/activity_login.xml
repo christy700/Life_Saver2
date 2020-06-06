@@ -1,0 +1,247 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="REGISTERATION"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+    android:layout_marginTop="12dp"
+    android:id="@+id/nam1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:drawablePadding="12dp"
+    android:ems="-20"
+        android:textSize="15dp"
+        android:hint="Username"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/vn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:hint="Vehicle Number"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/nam2"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/add"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Address"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/ct"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="City"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/pc"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Pincode"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/st"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="State"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/cy"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Country"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+
+
+
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/bg"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Blood Group"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/pass"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Password"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textSize="15dp"
+        android:id="@+id/cpass"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_sign2"
+        android:padding="16dp"
+        android:text="Register"
+        android:textColor="#f16f7d" />
+
+
+</LinearLayout>
+</ScrollView>

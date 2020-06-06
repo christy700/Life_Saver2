@@ -1,0 +1,86 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="EMERGENCY NUMBER"
+        android:textSize="17dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/num1"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="-20"
+        android:textSize="15dp"
+
+        android:hint="NUMBER 1"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+    <EditText
+        android:layout_marginTop="12dp"
+        android:inputType="number"
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="-20"
+        android:textSize="15dp"
+
+        android:hint="NUMBER 2"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+    <EditText
+        android:layout_marginTop="12dp"
+        android:inputType="number"
+        android:id="@+id/num3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:ems="-20"
+        android:textSize="15dp"
+
+        android:hint="NUMBER 3"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <Button
+        android:id="@+id/dd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_sign2"
+        android:padding="16dp"
+        android:text="DONE"
+        android:textColor="#f16f7d" />
+
+</LinearLayout>
